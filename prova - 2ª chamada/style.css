@@ -1,0 +1,58 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 30px;
+  color: #70707063;
+}
+
+body{
+  background-color: #fafafa;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: stretch;
+  gap: 10px;
+}
+
+div {
+  display: grid;
+  margin: 250px 0px 0px 100px;
+}
+
+.paragrafo-inicial {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #1a768f;
+}
+
+p {
+  font-size: 27px;
+}
+
+img{
+  grid-column: 2;
+  border-radius: 27px;
+  box-shadow: rgba(0, 0, 0, 0.4) -1px 1px 7px 0px;
+}
+
+.botao{
+  display: grid;
+  place-self: end;
+  background-color: #1a748f;
+  border-radius: 5px;
+}
+
+
+a{
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  padding: 20px 30px;
+}
+
+div a{
+  position: absolute;
+  top: 1000px;
+}
